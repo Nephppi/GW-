@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>GWねふっぴ株式会社</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GWねふっぴ株式会社ホームページ">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/openclose.js"></script>
+<script src="js/fixmenu_pagetop.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo.jpg" alt="GWねふっぴ株式会社"></a></h1>
+</header>
+
+<!--PC用（801px以上端末）メニュー-->
+<nav id="menubar">
+<ul>
+<li class="current"><a href="index.html"><span>HOME</span>ホーム</a></li>
+<li><a href="about.html"><span>Fortnite</span>Fortnite</a></li>
+<li><a href="in.html"><span>Dead by daylight</span>Dead by daylight</a></li>
+<li><a href="info.html"><span>Activity report</span>活動報告</a></li>
+<li><a href="annai.html"><span>INFORMATION</span>お得なご案内</a></li>
+<li><a href="event.html"><span>EVENT</span>年間行事</a></li>
+<li><a href="contact.html"><span>CONTACT</span>お問合せ</a></li>
+<li><a href="link.html"><span>Link</span>リンク</a></li>
+<li><a href="access.html"><span>Link</span>今後更新</a></li>
+</ul>
+</nav>
+<!--小さな端末用（800px以下端末）メニュー-->
+<nav id="menubar-s">
+<ul>
+<li class="current"><a href="index.html"><span>HOME</span>ホーム</a></li>
+<li><a href="about.html"><span>Fortnite</span>Fortnite</a></li>
+<li><a href="in.html"><span>Dead by daylight</span>Dead by daylight</a></li>
+<li><a href="info.html"><span>Activity report</span>活動報告</a></li>
+<li><a href="annai.html"><span>INFORMATION</span>お得なご案内</a></li>
+<li><a href="event.html"><span>EVENT</span>年間行事</a></li>
+<li><a href="contact.html"><span>CONTACT</span>お問合せ</a></li>
+<li><a href="link.html"><span>Link</span>リンク</a></li>
+<li><a href="access.html"><span>Link</span>今後更新</a></li>
+</ul>
+</nav>
+
+<div id="contents">
+
+<div id="main">
+
+
+
+
+<h3></h3>
+<p>そのままではリストマークが出ませんので、リストタグを使う場合は以下のようなスタイルを追加して下さい。</p>
+<p>&lt;ul <span class="color1">class=&quot;disc&quot;</span>&gt;<br>
+&lt;li&gt;リストタグ&lt;/li&gt;<br>
+&lt;li&gt;リストタグ&lt;/li&gt;<br>
+&lt;li&gt;リストタグ&lt;/li&gt;<br>
+&lt;/ul&gt;
+</p>
+<p>↓出力例</p>
+<ul class="disc">
+<li>リストタグ</li>
+<li>リストタグ</li>
+<li>リストタグ</li>
+</ul>
+
+<h3></h3>
+
+</section>
+
+</div>
+<!--/main-->
+
+<div id="sub">
+
+<nav class="box">
+<h2>Menu</h2>
+<ul class="submenu">
+<li><a href="faq.html">よく頂く質問</a></li>
+<li><a href="recruit.html">採用情報</a></li>
+<li><a href="link.html">リンク集</a></li>
+<li><a href="about.html">Fortnite </a></li>
+<li><a href="in.html">Dead by Daylight</a></li>
+<li><a href="info.html">活動報告</a></li>
+<li><a href="annai.html">お得情報</a></li>
+<li><a href="event.html">年間行事</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</nav>
+
+
+
+<section class="box">
+<h2 class="mb15">運営【活動拠点　日本・America】</h2>
+<p class="c"><strong>GWねふっぴ株式会社</strong><br>
+<span class="mini1">東京都XX区XXXX<br>
+TEL:050-0000-0000</span><br>
+<img src="images/dummy_map_main.jpg" alt=""><br>
+<span class="mini1"><a href="http://template-party.com/file/pickup_googlemap.html" target="_blank">上の画像ダミー</a></span></p>
+</section>
+
+</div>
+<!--/sub-->
+
+</div>
+<!--/contents-->
+
+<footer>
+GWねふっぴ株式会社 代表取締役　照下　未夕<br>
+Gw Nefuppi Corporation A representative director MIYU TERUSITA</a></span>
+</footer>
+
+</div>
+<!--/container-->
+
+<!--ページの上部に戻る「↑」ボタン-->
+<p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+<!--メニュー開閉ボタン-->
+<div id="menubar_hdr" class="close"></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script>
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+
+<!--表示切り替え-->
+<div id="viewport_sw"><a href="javascript:chg_viewport(null)">表示モード切り替え</a></div>
+<script src="js/viewport.js"></script><!--表示切り替え-->
+
+
+</body>
+</html>
+
+
+
+
